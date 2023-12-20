@@ -114,7 +114,7 @@ const ShowMsgs=()=>{
         console.log("if Lunch");
         document.getElementById("timeMsg1").innerText="Good Afternoon"
         document.getElementById("timeMsg2").innerHTML="<h2>Eat Your Lunch</h2>"
-        document.getElementById('images').style.backgroundImage = "url('./Lunch.png')"
+        document.getElementById('images').style.backgroundImage = "url('Lunch.png')"
         document.getElementById('images').style.backgroundRepeat = "no-repeat"
         document.getElementById('images').style.backgroundSize = "cover"
         document.getElementById('images').innerText = " ";
@@ -135,7 +135,7 @@ const ShowMsgs=()=>{
         console.log(arr4[1]);
         document.getElementById("timeMsg1").innerText="Good Night"
         document.getElementById("timeMsg2").innerHTML="<h2>Its Night Time,Close Your Eyes And Sleep</h2>"
-        document.getElementById('images').style.backgroundImage = "url('./aseets/Night1.png')"
+        document.getElementById('images').style.backgroundImage = "url('./Night1.png')"
         document.getElementById('images').style.backgroundRepeat = "no-repeat"
         document.getElementById('images').style.backgroundSize = "cover"
         document.getElementById('images').innerText = " ";
