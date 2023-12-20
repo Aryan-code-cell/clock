@@ -104,7 +104,7 @@ const ShowMsgs=()=>{
         console.log("if Morning");
         document.getElementById("timeMsg1").innerText="Good Morning"
         document.getElementById("timeMsg2").innerHTML="<h2>Hey Its Time To Wake Up</h2>"
-        document.getElementById('images').style.backgroundImage = "url('./aseets/Morning.png')"
+        document.getElementById('images').style.backgroundImage = "url('./Morning.png')"
         document.getElementById('images').style.backgroundRepeat = "no-repeat"
         document.getElementById('images').style.backgroundSize = "cover"
         document.getElementById('images').innerText = " ";
@@ -114,7 +114,7 @@ const ShowMsgs=()=>{
         console.log("if Lunch");
         document.getElementById("timeMsg1").innerText="Good Afternoon"
         document.getElementById("timeMsg2").innerHTML="<h2>Eat Your Lunch</h2>"
-        document.getElementById('images').style.backgroundImage = "url('./aseets/Lunch.png')"
+        document.getElementById('images').style.backgroundImage = "url('./Lunch.png')"
         document.getElementById('images').style.backgroundRepeat = "no-repeat"
         document.getElementById('images').style.backgroundSize = "cover"
         document.getElementById('images').innerText = " ";
@@ -124,7 +124,7 @@ const ShowMsgs=()=>{
         console.log("if Nap");
         document.getElementById("timeMsg1").innerText="Good Evening"
         document.getElementById("timeMsg2").innerHTML="<h2>Time to take a nap</h2>"
-        document.getElementById('images').style.backgroundImage = "url('./aseets/Night.png')"
+        document.getElementById('images').style.backgroundImage = "url('./Night.png')"
         document.getElementById('images').style.backgroundRepeat = "no-repeat"
         document.getElementById('images').style.backgroundSize = "cover"
         document.getElementById('images').innerText = " ";
@@ -143,7 +143,7 @@ const ShowMsgs=()=>{
     else{
         document.getElementById("timeMsg1").innerText="Welcome"
         document.getElementById("timeMsg2").innerHTML="<h2>Choose Time and Click on Button to Start</h2>"
-        document.getElementById('images').style.backgroundImage = "url('aseets/butterfly.png')"
+        document.getElementById('images').style.backgroundImage = "url('butterfly.png')"
         document.getElementById('images').style.backgroundRepeat = "no-repeat"
         document.getElementById('images').style.backgroundSize = "cover"
         // document.getElementById('images').innerHTML = "<p style='color:white;text-decoration: underl</p>";
